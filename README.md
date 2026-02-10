@@ -43,10 +43,16 @@ fastapi-aula/
 ├── README.md
 └── .gitignore
 ```
+
 ⚙️ Como Executar o Projeto
+
 1️⃣ Clonar o repositório
+
+```
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
+
+```
 
 2️⃣ Criar ambiente virtual (opcional)
 
@@ -121,3 +127,4 @@ Docker
 Testes automatizados
 
 Deploy em produção
+
