@@ -102,6 +102,7 @@ Swagger: http://127.0.0.1:8000/docs
 
 Redoc: http://127.0.0.1:8000/redoc
 
+---
 
 🎯 Objetivos do Projeto
 
@@ -115,6 +116,7 @@ Usar documentação automática
 
 Aplicar boas práticas
 
+---
 
 🚧 Próximos Passos
 
@@ -127,4 +129,3 @@ Docker
 Testes automatizados
 
 Deploy em produção
-
