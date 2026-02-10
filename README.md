@@ -49,25 +49,44 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
 2️⃣ Criar ambiente virtual (opcional)
+
+```
 python -m venv venv
 
+```
 
 Ativar:
 
 Windows
 
+```
+
 venv\Scripts\activate
 
+```
 
 Linux / Mac
 
+```
+
 source venv/bin/activate
 
+```
+
 3️⃣ Instalar dependências
+
+```
+
 pip install -r requirements.txt
 
+```
+
 4️⃣ Rodar o servidor
+
+```
 uvicorn app.main:app --reload
+
+```
 
 🌐 Acessos
 
@@ -76,6 +95,7 @@ API: http://127.0.0.1:8000
 Swagger: http://127.0.0.1:8000/docs
 
 Redoc: http://127.0.0.1:8000/redoc
+
 
 🎯 Objetivos do Projeto
 
@@ -89,6 +109,7 @@ Usar documentação automática
 
 Aplicar boas práticas
 
+
 🚧 Próximos Passos
 
 Banco de dados (PostgreSQL / SQLite)
@@ -100,4 +121,3 @@ Docker
 Testes automatizados
 
 Deploy em produção
-
